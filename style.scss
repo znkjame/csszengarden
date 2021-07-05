@@ -1,0 +1,22 @@
+$breakpoint-tablet: 768px;
+
+#css-zen-garden {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page-wrapper {
+  margin: 2em 3em;
+}
+
+.intro {
+  header {
+    h1 {
+      @media (min-width: $breakpoint-tablet) {
+        font-size: 10em;
+      }
+      @media (max-width: $breakpoint-tablet) {
+        font-size: 5em;
+      }
+    }
+  }
+}
