@@ -1,0 +1,88 @@
+$primary-color: #3E6B26;
+$secondary-color: #ceecd1;
+$third-color: #79b480;
+$main-text-color: #0f9434;
+$main-font-family: Georgia, serif;
+$header-font-family: 'Brush Script MT',cursive;
+
+body {
+    font-family: $main-font-family;
+    margin: 0;
+    padding: 0;
+    background-image: url(pic/background.jpg);
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Lucida Handwriting',cursive;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: $primary-color;
+}
+
+h2{
+    font-size: 35px;
+    font-family: 'Brush Script MT',cursive;
+    margin-top: 5px;
+    padding-left: 30px;
+    color: $primary-color;
+}
+
+h3 {
+    font-family: $header-font-family;
+    font-size: 30px;
+    color: white;
+    border-bottom: dotted black;
+    background-color: $third-color;
+    padding: 10px 10px 10px 10px;
+}
+
+p{
+    padding-left: 20px;
+    color: $main-font-family;
+    padding: 10px 10px 10px 10px;
+}
+
+a:hover,a:active,a:focus{
+    background-color: white;
+    color: $main-text-color;
+}
+
+a:link,a:visited{
+    color: $third-color;
+}
+
+.page-wrapper{
+    float: left;
+    padding-left: 20px;
+}
+
+.summary{
+    background-color: $secondary-color;
+}
+
+.summary,.preamble, .explanation, .participation, .benefits , .requirements{
+    display: block;
+    border-bottom: dotted;
+    background-color: $secondary-color;
+}
+
+.summary, #zen-supporting ,.preamble{
+    width: 65%;
+    float: left;
+}
+.sidebar{
+    width: 30%;
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.sidebar div div{
+    background-color: $secondary-color;
+    padding-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+}
